@@ -1,0 +1,26 @@
+git add                                                     提交到缓存区(stage)
+git commit					                                提交到分支(branch)
+git status                                                  查看仓库状态
+git log  --pretty = oneline                                 查看日志（参数为单行）
+git reset --hard "HEAD^"  ^^ ~100                           版本回退（windows下^符号必须加“”）
+git reflog                                                  查看版本日志
+git checkout --file				                            检出最新版本（撤销当前修改）
+git reset HEAD file 			                            缓存区退回工作区
+git rm file                                                 删除文件
+git remote add origin git@server-name:path/repo-name.git    关联远端仓库
+git push -u origin master                                   第一次推送到远端并关联master
+git push origin master                                      推送到远端仓库
+git branch                                                  查看分支
+git branch <name>                                           创建分支
+git checkout <name>                                         切换分支
+git checkout -b <name>                                      创建并切换分支
+git merge <name>                                            合并某分支到当前分支
+git branch -d <name>                                        删除分支
+git log --graph                                             查看分支合并图
+git tag <name>                                              创建标签
+git tag -a <tagname> -m "blablabla..."                      指定标签信息
+git tag -d <tagname>                                        删除标签
+git push origin <tagname>                                   可以推送一个本地标签
+git push origin --tags                                      可以推送全部未推送过的本地标签
+git push origin :refs/tags/<tagname>                        可以删除一个远程标签
+git config --global alias.st status                         配置别名
