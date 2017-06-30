@@ -1,5 +1,5 @@
 git add                                                     提交到缓存区(stage)
-git commit					                                        提交到分支(branch)
+git commit                                                  提交到分支(branch)
 git status                                                  查看仓库状态
 git log  --pretty = oneline                                 查看日志（参数为单行）
 git reset --hard "HEAD^"  ^^ ~100                           版本回退（windows下^符号必须加“”）
