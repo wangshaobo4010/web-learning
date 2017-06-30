@@ -1,11 +1,11 @@
 git add                                                     提交到缓存区(stage)
-git commit					                                提交到分支(branch)
+git commit					                                        提交到分支(branch)
 git status                                                  查看仓库状态
 git log  --pretty = oneline                                 查看日志（参数为单行）
 git reset --hard "HEAD^"  ^^ ~100                           版本回退（windows下^符号必须加“”）
 git reflog                                                  查看版本日志
-git checkout --file				                            检出最新版本（撤销当前修改）
-git reset HEAD file 			                            缓存区退回工作区
+git checkout --file				                                  检出最新版本（撤销当前修改）
+git reset HEAD file 			                                  缓存区退回工作区
 git rm file                                                 删除文件
 git remote add origin git@server-name:path/repo-name.git    关联远端仓库
 git push -u origin master                                   第一次推送到远端并关联master
